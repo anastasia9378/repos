@@ -1,0 +1,285 @@
+/*
+=== COLOR ===
+orange:  #fb9c06
+grey:  #6e6d6b
+light-grey:  #9e9b9b
+
+*/
+
+*{
+   	margin:0;
+	padding:0;
+}
+
+@media screen and (max-width:1285px) {
+	
+}
+
+@font-face {
+	font-family: "Bebas"; 
+	src: url(../fonts/Bebas.woff2); 
+}
+
+@font-face {
+	font-family: "Calibri"; 
+	src: url(../fonts/Calibri.woff2); 
+}
+
+
+@font-face {
+	font-family: "Stmarie"; 
+	src: url(../fonts/Stmarie.woff2); 
+}
+
+html{
+	font-size: 10px;
+	font-family: "Calibri", "Verdana", sans-serif;
+}
+
+header {
+	width: 1200px;
+	height: 140px;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+.head-block {
+	height: 50%;
+	background-color: white;
+}
+.slider {
+	height: 350px;
+	background-image: url("../images/bg-slider.jpg");
+	border-top: 2px orange solid;
+	border-bottom: 2px orange solid;
+}
+.nadpis1{
+	text-align:center;
+	font-size:200%;
+	font-weight:bold;
+	height: 50px;
+	width: 200px;
+	background-color: rgba(0, 0, 0, 0.7);
+	color:orange;
+	margin-top:30px;
+	margin-left:150px;
+}
+.nadpis2{
+	text-align:center;
+	font-weight:bold;
+	font-size:200%;
+	height: 50px;
+	width: 200px;
+	background-color: rgba(255, 165, 0, 0.7);
+	margin-top:30px;
+	margin-left:150px;
+}
+.head-block img{
+	padding-right: 50px;
+	display:block;
+	float:left;
+}
+/*.head-block {
+	display: inline;
+	width: 200px;
+	padding-bottom: 10px;
+}
+
+.menu-icons  {
+	position: absolute;
+	right: 200px;
+	margin-top: 26px;
+}
+
+.menu-icons:hover {
+	margin
+}*/
+h1{
+	color:orange;
+	font-family:arial;
+	font-size:37px;
+	text-align:;
+}
+nav{
+	float:right;
+	display: flex;
+    justify-content:space-around;
+}
+.menuu>a{
+	background-image: url(../images/nav-icons.png);
+	padding:50px;
+	background-repeat:no-repeat;
+	font-size:14px;
+	text-decoration:none;
+	color:grey;
+	font-family:Arial;
+}
+.menuu>a:hover {
+	background-image: url(../images/nav-icons-hover.png);
+	color:orange;
+	
+}
+.menu>li {
+	display:inline-block;
+	position:relative;
+}
+.podmenu:hover .menu2{
+	display:inline-block;
+}
+
+.menu2 {
+	position:absolute;
+	display:none;
+	padding-top:25px;
+	list-style-type:none;
+}
+.menu li:nth-of-type(1) a {
+	background-position:39px 1px;
+}
+.menu li:nth-of-type(2) a {
+	background-position:-85px 1px;
+}
+.menu li:nth-of-type(3) a {
+	background-position:-207px 1px;
+}
+.menu li:nth-of-type(4) a {
+	background-position:-329px 1px;
+}
+.menu li:nth-of-type(5) a {
+	background-position:-460px 1px;
+}
+.menu2 li {
+	padding:25px;
+}
+/*.text{
+	float:right;
+	width:20%;
+	padding:20px;
+}*/
+.ssil{
+	text-decoration:none;
+	color:orange;
+	font-style:italic;
+	text-align:right;
+	float:right;
+}
+article{
+	width:25%;
+	float:left;
+	padding:20px;
+	box-sizing:border-box;
+}
+section{
+	margin:0 auto;
+	width:90%;
+	overflow:hidden;
+}
+h3{
+	font-size:50px;
+	text-align:center;
+	color:orange;
+	text-decoration:underline;
+}
+#horse {
+	background-image: url(../images/horse.jpg);
+	height:150px;
+	width:150px;
+	background-size:100%;
+	border:5px orange solid;
+	border-radius:50%;
+}
+figure {
+}
+#rabbit {
+	background-image: url(../images/rebbit.jpg);
+	height:150px;
+	width:150px;
+	background-size:100%;
+	border:5px orange solid;
+	border-radius:50%;
+}
+#straus {
+	background-image: url(../images/ostrich.jpg);
+	height:150px;
+	width:150px;
+	background-size:100%;
+	border:5px orange solid;
+	border-radius:50%;
+}
+figure {
+	display:inline-block;
+	width:25%;
+}
+h4 {
+	margin-bottom:25px;
+	text-align:center;
+}
+h4 span {
+	color:orange;
+}
+figcaption {
+	margin-top:25px;
+	width:150px;
+}
+.shift-down {
+	background-color:orange;
+	height:50px;
+	margin-top:120px;
+	color:white;
+	font-size:25px;
+	text-align:center;
+}
+textarea {
+	resize: none;
+	width:80%;
+	float:right;
+	margin-top:10px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+input {
+	width:80%;
+	float:right;
+	display:block;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+form {
+	margin-left:50px;
+	margin-top:50px;
+	margin-bottom:50px;
+}
+label {
+	color:orange;
+	font-size:20px;
+	float:left;
+}
+form p {
+	height:40px;
+	line-height:30px;
+	
+}
+.forma {
+	margin:0 auto;
+	width:960px;
+}
+input:focus ,textarea:focus {
+    background-color: lightgrey;
+	-webkit-border-radius: 5px;
+}
+
+textarea:focus {
+    height: 150%;
+	-webkit-border-radius: 5px;
+}
+input[type="submit"]{
+	background-color:orange;
+	height:40px;
+	width:120px;
+	color:white;
+	font-size:20px;
+	float:right;
+	letter-spacing:1.0px;
+	margin-right:70px;
+	margin-top:25px;
+	
+	
+}
